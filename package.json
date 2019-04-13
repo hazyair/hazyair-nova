@@ -1,6 +1,6 @@
 {
-  "name": "sds011-wrapper",
-  "version": "1.2.0",
+  "name": "hazyair-nova",
+  "version": "1.2.1",
   "description": "Wrapper library created to simplify usage of SDS011 laser dust sensor in your projects",
   "main": "wrapper.js",
   "scripts": {
@@ -14,17 +14,17 @@
     "PM",
     "UART"
   ],
-  "author": "Michal Wilski",
+  "author": "Marcin Sielski",
   "license": "MIT",
   "dependencies": {
-    "serialport": "~5.0.0"
+    "serialport": "~7.1.4"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/triforcely/sds011-wrapper.git"
+    "url": "git://github.com/hazyair/hazyair-nova.git"
   },
   "devDependencies": {
-    "mocha": "~3.5.3",
+    "mocha": "~6.1.3",
     "rewire": "~2.5.2"
   }
 }
